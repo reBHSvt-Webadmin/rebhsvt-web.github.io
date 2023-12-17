@@ -36,8 +36,8 @@ a:hover
    margin-left: auto;
    max-width: 1140px;
    font-size: 0;
-   grid-column-gap: 20px;
-   grid-row-gap: 24px;
+   grid-column-gap: 10px;
+   grid-row-gap: 20px;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
    grid-template-areas:
@@ -49,27 +49,27 @@ a:hover
       ". photo04 photo04 photo04 photo05 photo05 photo05 photo05 photo06 photo06 photo06 photo06 item-0 item-0 item-0 item-0 item-0 . . . . ."
       ". photo04 photo04 photo04 photo05 photo05 photo05 photo05 photo06 photo06 photo06 photo06 item-0 item-0 item-0 item-0 item-0 photo11 photo11 photo11 photo11 photo11"
       ". photo04 photo04 photo04 photo05 photo05 photo05 photo05 photo06 photo06 photo06 photo06 item-0 item-0 item-0 item-0 item-0 photo11 photo11 photo11 photo11 photo11"
-      "item-4 item-4 item-4 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 photo11 photo11 photo11 photo11 photo11"
-      "item-4 item-4 item-4 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 photo11 photo11 photo11 photo11 photo11"
-      "item-4 item-4 item-4 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 photo11 photo11 photo11 photo11 photo11"
-      "item-4 item-4 item-4 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-3 item-3 item-3 item-3 ."
-      "item-4 item-4 item-4 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-3 item-3 item-3 item-3 ."
-      "item-4 item-4 item-4 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-3 item-3 item-3 item-3 ."
-      "item-4 item-4 item-4 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-3 item-3 item-3 item-3 ."
-      "item-4 item-4 item-4 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-3 item-3 item-3 item-3 ."
-      "item-4 item-4 item-4 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-3 item-3 item-3 item-3 ."
-      "item-4 item-4 item-4 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-3 item-3 item-3 item-3 ."
-      "item-4 item-4 item-4 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 . . . . ."
-      "photo12 photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . . ."
-      "photo12 photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . . ."
-      "photo12 photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . . ."
-      "photo12 photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . . ."
-      "photo12 photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . . ."
-      "photo12 photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . . ."
-      ". . . . . item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . . ."
-      ". . . . . item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . . ."
-      ". . . . . item-1 item-1 item-1 item-1 . . . . . . . . . . . . ."
-      ". . . . . item-1 item-1 item-1 item-1 . . . . . . . . . . . . ."
+      "item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 photo11 photo11 photo11 photo11 photo11"
+      "item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 photo11 photo11 photo11 photo11 photo11"
+      "item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 photo11 photo11 photo11 photo11 photo11"
+      "item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-3 item-3 item-3 item-3 ."
+      "item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-3 item-3 item-3 item-3 ."
+      "item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-3 item-3 item-3 item-3 ."
+      "item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-3 item-3 item-3 item-3 ."
+      "item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-3 item-3 item-3 item-3 ."
+      "item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-3 item-3 item-3 item-3 ."
+      "item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-3 item-3 item-3 item-3 ."
+      "item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 . . . . ."
+      ". photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . ."
+      ". photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . ."
+      ". photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . ."
+      ". photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . ."
+      ". photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . ."
+      ". photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . ."
+      ". photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . ."
+      ". photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . ."
+      ". . . . . item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . ."
+      ". . . . . item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . ."
       ". . . . . item-1 item-1 item-1 item-1 . . . . . . . . . . . . .";
 }
 #FlexGrid1 .photo02
@@ -216,30 +216,12 @@ a:hover
    align-items: center;
    align-content: center;
 }
-#FlexGrid1 .item-4
-{
-   display: flex;
-   grid-area: item-4;
-   background-color: transparent;
-   background-image: url('../images/DSCF2745_V2.jpg');
-   background-repeat: no-repeat;
-   background-position: left top;
-   background-size: cover;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   padding: 0;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: space-around;
-   align-items: center;
-   align-content: center;
-}
 #FlexGrid1 .item-5
 {
    display: flex;
    grid-area: item-5;
    background-color: transparent;
-   background-image: url('../images/landingbasic.png');
+   background-image: url('../images/landingbasicv3.png');
    background-repeat: no-repeat;
    background-position: center center;
    background-size: contain;
