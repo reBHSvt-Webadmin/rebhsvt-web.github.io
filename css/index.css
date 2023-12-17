@@ -38,31 +38,39 @@ a:hover
    font-size: 0;
    grid-column-gap: 20px;
    grid-row-gap: 24px;
-   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-   grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
    grid-template-areas:
-      ". . . . . photo02 photo02 photo02 . . . . . . . . . ."
-      ". . photo01 photo01 photo01 photo02 photo02 photo02 photo03 photo03 photo03 photo03 photo03 . . . . ."
-      ". . photo01 photo01 photo01 photo02 photo02 photo02 photo03 photo03 photo03 photo03 photo03 . . . . ."
-      ". . photo01 photo01 photo01 photo02 photo02 photo02 photo03 photo03 photo03 photo03 photo03 . . . . ."
-      ". photo04 photo04 photo04 photo05 photo05 photo05 photo05 photo06 photo06 photo06 photo06 item-0 item-0 item-0 item-0 . ."
-      ". photo04 photo04 photo04 photo05 photo05 photo05 photo05 photo06 photo06 photo06 photo06 item-0 item-0 item-0 item-0 . ."
-      ". photo04 photo04 photo04 photo05 photo05 photo05 photo05 photo06 photo06 photo06 photo06 item-0 item-0 item-0 item-0 . ."
-      ". photo04 photo04 photo04 photo05 photo05 photo05 photo05 photo06 photo06 photo06 photo06 item-0 item-0 item-0 item-0 . ."
-      "photo08 photo08 photo08 photo08 elevation elevation elevation elevation elevation elevation elevation elevation elevation elevation . item-2 . ."
-      "photo08 photo08 photo08 photo08 elevation elevation elevation elevation elevation elevation elevation elevation elevation elevation photo11 photo11 photo11 photo11"
-      "photo08 photo08 photo08 photo08 elevation elevation elevation elevation elevation elevation elevation elevation elevation elevation photo11 photo11 photo11 photo11"
-      "photo08 photo08 photo08 photo08 elevation elevation elevation elevation elevation elevation elevation elevation elevation elevation photo11 photo11 photo11 photo11"
-      "photo08 photo08 photo08 photo08 elevation elevation elevation elevation elevation elevation elevation elevation elevation elevation photo15 photo15 photo15 ."
-      "photo08 photo08 photo08 photo08 elevation elevation elevation elevation elevation elevation elevation elevation elevation elevation photo15 photo15 photo15 ."
-      ". photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo15 photo15 photo15 ."
-      ". photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 . . . ."
-      ". photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 . . . ."
-      ". photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 . . . ."
-      ". photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 . . . ."
-      ". . . . . item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 . . . ."
-      ". . . . . item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 . . . ."
-      ". . . . . item-1 item-1 item-1 item-1 . . . . . . . . .";
+      ". . . . . photo02 photo02 photo02 . . . . . . . . . . . . . ."
+      ". . photo01 photo01 photo01 photo02 photo02 photo02 photo03 photo03 photo03 photo03 photo03 . . . . . . . . ."
+      ". . photo01 photo01 photo01 photo02 photo02 photo02 photo03 photo03 photo03 photo03 photo03 . . . . . . . . ."
+      ". . photo01 photo01 photo01 photo02 photo02 photo02 photo03 photo03 photo03 photo03 photo03 . . . . . . . . ."
+      ". photo04 photo04 photo04 photo05 photo05 photo05 photo05 photo06 photo06 photo06 photo06 item-0 item-0 item-0 item-0 item-0 . . . . ."
+      ". photo04 photo04 photo04 photo05 photo05 photo05 photo05 photo06 photo06 photo06 photo06 item-0 item-0 item-0 item-0 item-0 . . . . ."
+      ". photo04 photo04 photo04 photo05 photo05 photo05 photo05 photo06 photo06 photo06 photo06 item-0 item-0 item-0 item-0 item-0 photo11 photo11 photo11 photo11 photo11"
+      ". photo04 photo04 photo04 photo05 photo05 photo05 photo05 photo06 photo06 photo06 photo06 item-0 item-0 item-0 item-0 item-0 photo11 photo11 photo11 photo11 photo11"
+      "item-4 item-4 item-4 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 photo11 photo11 photo11 photo11 photo11"
+      "item-4 item-4 item-4 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 photo11 photo11 photo11 photo11 photo11"
+      "item-4 item-4 item-4 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 photo11 photo11 photo11 photo11 photo11"
+      "item-4 item-4 item-4 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-3 item-3 item-3 item-3 ."
+      "item-4 item-4 item-4 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-3 item-3 item-3 item-3 ."
+      "item-4 item-4 item-4 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-3 item-3 item-3 item-3 ."
+      "item-4 item-4 item-4 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-3 item-3 item-3 item-3 ."
+      "item-4 item-4 item-4 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-3 item-3 item-3 item-3 ."
+      "item-4 item-4 item-4 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-3 item-3 item-3 item-3 ."
+      "item-4 item-4 item-4 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-3 item-3 item-3 item-3 ."
+      "item-4 item-4 item-4 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 item-5 . . . . ."
+      "photo12 photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . . ."
+      "photo12 photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . . ."
+      "photo12 photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . . ."
+      "photo12 photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . . ."
+      "photo12 photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . . ."
+      "photo12 photo12 photo12 photo12 photo12 item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . . ."
+      ". . . . . item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . . ."
+      ". . . . . item-1 item-1 item-1 item-1 photo14 photo14 photo14 photo14 photo14 photo14 . . . . . . ."
+      ". . . . . item-1 item-1 item-1 item-1 . . . . . . . . . . . . ."
+      ". . . . . item-1 item-1 item-1 item-1 . . . . . . . . . . . . ."
+      ". . . . . item-1 item-1 item-1 item-1 . . . . . . . . . . . . .";
 }
 #FlexGrid1 .photo02
 {
@@ -190,56 +198,6 @@ a:hover
    align-items: center;
    align-content: center;
 }
-#FlexGrid1 .photo08
-{
-   display: flex;
-   grid-area: photo08;
-   background-color: transparent;
-   background-image: url('../images/DSCF2467.jpg');
-   background-repeat: no-repeat;
-   background-position: center center;
-   background-size: cover;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   padding: 0;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: space-around;
-   align-items: center;
-   align-content: center;
-}
-#FlexGrid1 .elevation
-{
-   display: flex;
-   grid-area: elevation;
-   background-color: transparent;
-   background-image: url('../images/landingbasic.png');
-   background-repeat: no-repeat;
-   background-position: center center;
-   background-size: contain;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   padding: 0;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: space-around;
-   align-items: center;
-   align-content: center;
-}
-#FlexGrid1 .item-2
-{
-   display: flex;
-   grid-area: item-2;
-   background-color: transparent;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   padding: 0;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: space-around;
-   align-items: center;
-   align-content: center;
-}
 #FlexGrid1 .photo11
 {
    display: flex;
@@ -258,10 +216,46 @@ a:hover
    align-items: center;
    align-content: center;
 }
-#FlexGrid1 .photo15
+#FlexGrid1 .item-4
 {
    display: flex;
-   grid-area: photo15;
+   grid-area: item-4;
+   background-color: transparent;
+   background-image: url('../images/DSCF2745_V2.jpg');
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-size: cover;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: center;
+}
+#FlexGrid1 .item-5
+{
+   display: flex;
+   grid-area: item-5;
+   background-color: transparent;
+   background-image: url('../images/landingbasic.png');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: center;
+}
+#FlexGrid1 .item-3
+{
+   display: flex;
+   grid-area: item-3;
    background-color: transparent;
    background-image: url('../images/DSCF2805.jpg');
    background-repeat: no-repeat;
