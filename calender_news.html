@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Full Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 19 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&700&display=swap" rel="stylesheet">
+<link href="rebhs_web_1.css" rel="stylesheet">
+<link href="calender_news.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery.ui.effect.min.js"></script>
+<script src="wb.cookie.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function(event)
+{
+   if (hasCookie('darktheme'))
+   {
+      document.documentElement.classList.add('darktheme');
+   }
+});
+</script>
+<script>
+$(document).ready(function()
+{
+   $("a[href*='#LayoutGrid1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid1').offset().top }, 600, 'easeOutCirc');
+   });
+   $("a[href*='#LayoutGrid2']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid2').offset().top }, 600, 'easeOutCirc');
+   });
+});
+</script>
+</head>
+<body>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="col-1">
+<nav class="Extension8">
+<input id="Extension8-button" type="checkbox" checked />
+<a class="Extension8-item icon1" href="https://heyzine.com/flip-book/25c63fc64a.html" target="_blank" title="get the story"><span><i class="fa fa-book"></i><span class="label">get the story</span></span></a>
+<a class="Extension8-item icon2" href="" title="get involved"><span><i class="fa fa-envelope"></i><span class="label">get involved</span></span></a>
+<a class="Extension8-item icon3" href="" title="downloads"><span><i class="fa fa-download"></i><span class="label">downloads</span></span></a>
+<a class="Extension8-item icon4" href="./calender_news.html" title="events"><span><i class="fa fa-newspaper-o"></i><span class="label">events</span></span></a>
+<a class="Extension8-item icon5" href="./home.html" title="home"><span><i class="fa fa-home"></i><span class="label">home</span></span></a>
+<label class="Extension8-close" for="Extension8-button"></label>
+</nav>
+
+</div>
+<div class="col-2">
+</div>
+<div class="col-3">
+<div id="wb_Icon1" style="display:inline-block;width:32px;height:32px;text-align:center;z-index:1;">
+<a href="#" onclick="document.documentElement.classList.toggle('darktheme');setCookie('darktheme', document.documentElement.classList.contains('darktheme') ? 'true' : '', 7);return false;"><div id="Icon1"><i class="fa fa-adjust"></i></div></a>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="col-1">
+</div>
+<div class="col-2">
+<!-- reBHS Calender -->
+<div id="Html1" style="display:inline-block;width:100%;height:57px;z-index:2">
+<iframe src="https://calendar.google.com/calendar/embed?src=rebhsvt%40gmail.com&ctz=UTC" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe></div>
+</div>
+<div class="col-3">
+<div id="wb_Icon2" style="display:inline-block;width:32px;height:32px;text-align:center;z-index:3;">
+<a href="#" onclick="document.documentElement.classList.toggle('darktheme');setCookie('darktheme', document.documentElement.classList.contains('darktheme') ? 'true' : '', 7);return false;"><div id="Icon2"><i class="fa fa-adjust"></i></div></a>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
